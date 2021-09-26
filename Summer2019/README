@@ -1,0 +1,13 @@
+Một dãy C được gọi là dãy con của dãy A nếu như tồn tại một cách xóa các phần tử trong dãy A
+mà vẫn bảo toàn thứ tự thì ta có được dãy C:
+Ví dụ: A = {1, 2, 3, 4, 5} thì C = {2, 4, 5} hoặc C = {1, 3, 4, 5} thì những dãy C này đều là dãy con
+của A. Nhưng C = {1, 5, 4} thì không phải, vì không bảo đảm được tính thứ tự các phần tử trong
+dãy A.
+Dãy C được gọi là dãy con “không liền kề” của dãy A nếu như tồn tại một cách xóa phần tử
+trong dãy A, được dãy C nhưng các phần tử trong C không được xuất hiện liền kề nhau trong
+dãy A.
+Ví dụ: A = {1, 2, 3, 4, 5, 6} thì C = {1, 3, 6} hay C = {2, 4, 6} thì những dãy C này đều là dãy con
+không liền kề. C = {1, 3, 4} không phải vì 2 phần tử 3 và 4 đứng cạnh nhau trong dãy A.
+Bạn được cho 2 dãy số nguyên A và B, dãy A gồm N phần tử và dãy B gồm M phần tử. Hãy tìm
+một dãy con không liền kề C dài nhất sao cho C vừa là dãy con của A và vừa là dãy con của B.
+Hãy in ra độ dài của dãy C bạn vừa tìm được.
