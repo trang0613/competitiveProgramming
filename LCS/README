@@ -1,0 +1,9 @@
+Problem:
+Find the length of the longest common subsequence in the given two spaced strings.
+
+Input:
+two spaced strings.
+
+Output:
+single string
+
